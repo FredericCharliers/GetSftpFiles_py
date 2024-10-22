@@ -1,0 +1,17 @@
+{
+    "api_url": "https://example.com/api",
+    "timeout": 30,
+    "retry_count": 3,
+    "sftp_clients": [
+        {
+            "name": "Bihr",
+            "destination_ftp_url": "transfer02.pimalion.cloud",
+            "remote_file_path": "/file-exchange/catalogue_bihr",
+            "destination_ftp_port": 8022,
+            "login": "pim-bih",
+            "password": "9iXvgk0fOc4f",
+            "local_download_path": "C:\\Data\\Bihr\\",
+            "local_downloaded_file_name": "Export.csv"
+        }
+    ]
+}
